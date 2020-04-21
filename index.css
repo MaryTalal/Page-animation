@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    background-color: #E6E6FA;
+
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loader_round {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.round_inner {
+    height: 25px;
+    width: 25px;
+    background-color: #DA70D6;
+    border-radius: 2px;
+}
+
+.round1 {
+    animation: 2s linear infinite moveround1;
+    animation-delay: 0.2s;
+}
+
+.round2 {
+    animation: 2s linear infinite moveround2;
+    animation-delay: 0.1s;
+}
+
+.round3 {
+    animation: 2s linear infinite moveround3;
+}
+
+.round4 {
+    animation: 2s linear infinite moveround4;
+    animation-delay: 0.3s;
+}
+
+.round5 {
+    animation: 2s linear infinite moveround5;
+    animation-delay: 0.2s;
+}
+
+.round6 {
+    animation: 2s linear infinite moveround6;
+    animation-delay: 0.1s;
+}
+
+.round7 {
+    animation: 2s linear infinite moveround7;
+    animation-delay: 0.4s;
+}
+
+.round8 {
+    animation: 2s linear infinite moveround8;
+    animation-delay: 0.3s;
+}
+
+.round9 {
+    animation: 2s linear infinite moveround9;
+    animation-delay: 0.2s;
+}
+
+@keyframes moveround1 {
+    0% {
+        transform: rotate(0.5turn);
+    }
+
+    50% {
+        transform: scale(0.01);
+    }
+}
+
+@keyframes moveround2 {
+    0% {
+        transform: rotate(0.5turn);
+    }
+
+    50% {
+        transform: scale(0.01);
+    }
+}
+
+@keyframes moveround3 {
+    0% {
+        transform: rotate(0.5turn);
+    }
+
+    50% {
+        transform: scale(0.01);
+    }
+}
+
+@keyframes moveround4 {
+    0% {
+        transform: rotate(0.5turn);
+    }
+
+    50% {
+        transform: scale(0.01);
+    }
+}
+
+@keyframes moveround5 {
+    0% {
+        transform: rotate(0.5turn);
+    }
+
+    50% {
+        transform: scale(0.01);
+    }
+}
+
+@keyframes moveround6 {
+    0% {
+        transform: rotate(0.5turn);
+    }
+
+    50% {
+        transform: scale(0.01);
+    }
+}
+
+@keyframes moveround7 {
+    0% {
+        transform: rotate(0.5turn);
+    }
+
+    50% {
+        transform: scale(0.01);
+    }
+}
+
+@keyframes moveround8 {
+    0% {
+        transform: rotate(0.5turn);
+    }
+
+    50% {
+        transform: scale(0.01);
+    }
+}
+
+@keyframes moveround9 {
+    0% {
+        transform: rotate(0.5turn);
+    }
+
+    50% {
+        transform: scale(0.01);
+    }
+}
